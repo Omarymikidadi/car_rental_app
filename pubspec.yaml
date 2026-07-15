@@ -1,0 +1,44 @@
+name: car_rental
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.10.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  shared_preferences: ^2.5.5
+  intl: ^0.20.2
+  provider: ^6.0.5
+  image_picker: ^1.0.4
+  url_launcher: ^6.3.2
+  firebase_core: any
+  firebase_auth: ^5.5.1
+  cloud_firestore: ^5.6.12
+  firebase_storage: any
+  http: ^1.1.0
+  geolocator: ^13.0.2
+  pdf: ^3.10.7
+  printing: ^5.11.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  flutter_launcher_icons: ^0.13.1
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: false
+  image_path: "assets/app_icon.png"
+  adaptive_icon_background: "#003399"
+  adaptive_icon_foreground: "assets/app_icon.png"
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
